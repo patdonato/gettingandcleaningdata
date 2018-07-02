@@ -1,0 +1,11 @@
+*** Note that the table is in a LONG format to easily summarize values and to easily treat different levels of columns as factors. This means that the dataset is ready for any functions in dplyr::summarise or even ready for plotting in ggplot2. ***
+
+Code Book
+The following lists all the variables and their corresponding descriptions in the independent tidy dataset called tidydata.txt. 
+
+1. subject_ID (chr) - the unique identifier of all subjects in the data.
+2. activity_name (chr) - describes the different static and dynamic activities of the subjects. 
+3. variable (chr) - different measures containing only the mean and sd.
+4. avg (num) - calculated mean per different measure grouped by subject ID and activity name.
+
+The different values for the variable can be found in features_info.txt and features.txt files from A Public Domain Dataset for Human Activity Recognition Using Smartphones.
