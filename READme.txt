@@ -1,3 +1,5 @@
+*** Note that the final table (tidydata.txt) is in a LONG format to easily summarize values and to easily treat different levels of columns as factors. This means that the dataset is ready for any functions in dplyr::summarise or even ready for plotting in ggplot2. ***
+
 Overview
 This repo contains al the requirements stated in the John Hopkins University Getting and Cleaning Data course project hosted through Coursera. It should contain the following files:
 1. READme.txt
